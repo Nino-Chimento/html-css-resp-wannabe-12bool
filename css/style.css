@@ -22,3 +22,8 @@ h3 {
 p {
   margin-bottom: 20px;
 }
+.img_bottom{
+  width: 50%;
+  border-radius: 100%;
+  background-color:  lightblue;
+}

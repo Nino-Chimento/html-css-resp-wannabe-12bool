@@ -5,7 +5,7 @@
 }
 .container{
   max-width: 1170px;
-  margin: auto;
+  margin: 0 auto;
 }
 .container::after{
   content: "";
@@ -55,6 +55,9 @@
 /* /width col */
 /* media 768px */
 @media screen and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
   .col-xs-1 {
     width:calc((100%/12) * 1)
   }
